@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "javac -version && javac -d out src/BinarySearch.java",
+      "run": "java -cp out BinarySearch",
+      "input": "",
+      "output": "'5' is at location 3\n'13' is at location 7\n'10' does not exist!",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    }
+  ]
+}
