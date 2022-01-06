@@ -13,5 +13,5 @@
                 distribution: 'temurin'
                 java-version: '17'
           - uses: education/autograding@v1
-            timeout-minutes: 30
+            timeout-minutes: 5
 
